@@ -9,7 +9,13 @@ public class IsThereSum {
      * @param target a hypothetical sum of two numbers.
      * @return true if two separate values in the array add up to a target, false otherwise.
      */
-    public boolean check(int[] arr, int target){
+    public boolean check(int[] arr, int target) {
+        for (int index = 0; index < arr.length - 1; index++) {
+            int sum = arr[index] + arr[index + 1];
+            if (sum == target) {
+                return true;
+            }
+        }
         return false;
     }
 }

@@ -21,7 +21,7 @@ public class IsThereSumTest {
         Assert.assertEquals(expected, its.check(input, target));
     }
     /**
-     * Given the input {2, 2, 3, 4, 5} and a target 5, there is a sum of 4 of 2+3.
+     * Given the input {2, 2, 3, 4, 5} and a target 5, there is a sum of 5 of 2+3.
      */
     @Test
     public void isThereSumTest2(){
